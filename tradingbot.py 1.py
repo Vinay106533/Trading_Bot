@@ -1,4 +1,5 @@
 import logging
+import api_key
 from binance.client import Client
 from binance.enums import *
 import sys
@@ -83,9 +84,8 @@ def get_user_input():
     return symbol, side_enum, order_type_enum, quantity, price
 
 if _name_ == "_main_":
-    # Replace these with your Testnet credentials
-    API_KEY = "your_api_key_here"
-    API_SECRET = "your_api_secret_here"
+    API_KEY = "Vinay@123"
+    API_SECRET = "Vinayallignuru@123"
 
     bot = BasicBot(API_KEY, API_SECRET)
 
