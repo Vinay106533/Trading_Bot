@@ -1,2 +1,2 @@
-API_KEY = "Vinay@123"
-API_SECRET = "Vinayallignuru@123"
+API_KEY ="api_key"
+API_SECRET = "api_secret"
